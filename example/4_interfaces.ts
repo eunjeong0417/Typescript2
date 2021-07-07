@@ -5,6 +5,8 @@ interface User {
 }
 
 // 변수에 사용하는 경우
+//seho의 타입을 User로 선언하면 name과 age는 각각
+//정의된 데이터 타입으로만 선언해야한다
 const seho: User = { name: 'hi', age: 100 };
 
 // 함수의 매개변수에 사용하는 경우
@@ -39,3 +41,5 @@ interface Developer extends Person {
   language: string;
 }
 const joo: Developer = { name: 'joo', age: 20, language: 'ts' };
+
+
